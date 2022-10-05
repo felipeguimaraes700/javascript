@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(115, 38, 216);
+    color: white;
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: .3s ease;
+}
+
+.btn:hover{
+    background-color: rgb(79, 27, 146);
+    cursor: alias;
+    border-radius: 10px;
+    width: 130px;
+    height: 60px;
+    font-size: 15px;
+}
+
+.fundo{
+    height: 100vh;
+    background-color: rgb(68, 68, 68);
+}
+
+.sair{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(177, 169, 189);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: .3s ease;
+}

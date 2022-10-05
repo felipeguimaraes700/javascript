@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equi0v="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <h1>variáveis</h1>
+    <h2>sccope let e const</h2>
+
+    <script>
+        //const e let são locais e só funcionam no escopo onde foi criada
+
+        console.log('> existe x antes do bloco?',x)
+
+            {
+                let x = 0
+            }
+
+         console.log('> existe x depois do bloco?',x)
+
+         //certo
+        
+         {
+            let y = 0
+            console.log('> existe y antes',x)
+         }
+    </script>
+</body>
+</html>
