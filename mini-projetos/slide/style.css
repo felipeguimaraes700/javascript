@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.seta{
+    width: 40px;
+    height: 40px;
+}
+
+.item{
+    width: 200px;
+    height: 300px;
+}
+
+.conteiner{
+    position: relative;
+    padding: 15px;
+    width: 640px;
+    margin: 150px auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galerry-wrapper{
+    overflow-x: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+.arrow-left, .arrow-rigth{
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    line-height: 250px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.747) );
+}
+
+.arrow-rigth{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    background: linear-gradient(to left, transparent 0%, rgba(0, 0,0, 0.747));
+}
