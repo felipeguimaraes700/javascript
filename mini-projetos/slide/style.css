@@ -26,6 +26,7 @@
 
 .galerry-wrapper{
     overflow-x: auto;
+    -ms-overflow-style: none;
 }
 
 .gallery{
@@ -46,7 +47,7 @@
     background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.747) );
 }
 
-.arrow-rigth{
+.arrow-left{
     position: absolute;
     top: 0;
     left: 0;
@@ -54,3 +55,16 @@
     bottom: 0;
     background: linear-gradient(to left, transparent 0%, rgba(0, 0,0, 0.747));
 }
+
+.item{
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+}
+
+.current-item{
+    opacity: 1;
+}
+
