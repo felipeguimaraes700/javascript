@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+
     <title>player</title>
 </head>
+
 <body>
-    <img src="https://cdns-images.dzcdn.net/images/cover/91f7473d15427c9138448754b8f64504/500x500.jpg" class="capa" alt="">
+    <img src="https://cdns-images.dzcdn.net/images/cover/b9cc6991d99f5a90746939d8e5702901/264x264.jpg" class="capa" alt="">
     <div class="descricao">
         <h2>Nome da música</h2>
         <i>Nome do artista</i>
@@ -17,21 +19,24 @@
 
     <div class="duracao">
         <div class="barra">
-            <progress value="0.5" max="1"></progress>
+            <progress value="0" max="1"></progress>
             <div class="ponto"></div>
         </div>
         <div class="time">
-            <p class="inicio">0.00</p>
-            <p class="fim">3.40</p>
+            <p class="inicio">0:00</p>
+            <p class="fim">3:40</p>
         </div>
     </div>
 
     <div class="players">
-        <img src="https://cdn.icon-icons.com/icons2/1933/PNG/128/iconfinder-previous-arrow-back-left-music-4593162_122281.png" class="player next-left" alt="">
-        <img src="https://cdn-icons-png.flaticon.com/512/88/88011.png" class="player play" alt="">
-        <img src="https://cdn-icons-png.flaticon.com/512/16/16427.png" class="player play" alt="">
-        <img src="https://cdn.icon-icons.com/icons2/1933/PNG/128/iconfinder-next-music-player-play-media-4593176_122256.png" class="player next-rigth" alt="">
+        <img src="https://cdn.icon-icons.com/icons2/1933/PNG/128/iconfinder-previous-arrow-back-left-music-4593162_122281.png" class="player previus" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055007.png" class="player play" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/16/16427.png" class="player pause" alt="">
+        <img src="https://cdn.icon-icons.com/icons2/1933/PNG/128/iconfinder-next-music-player-play-media-4593176_122256.png" class="player next" alt="">
     </div>
+    <audio src="musicas/Vedo - You Got It (Remix) feat. Young Dolph x Money Man (320 kbps).mp3"></audio>
 
+
+    <script src="script.js"></script>
 </body>
 </html>
