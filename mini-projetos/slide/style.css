@@ -16,12 +16,13 @@
 .conteiner{
     position: relative;
     padding: 15px;
-    width: 640px;
+    width: 500px;
     margin: 150px auto;
-    height: 300px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(151, 151, 151));
 }
 
 .galerry-wrapper{
@@ -44,7 +45,8 @@
     text-align: center;
     cursor: pointer;
     border: none;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.747) );
+    background: linear-gradient(to right, transparent 0%, rgba(233, 233, 233, 0.747));
+    transform: .3s ease-in-out;
 }
 
 .arrow-left{
@@ -53,13 +55,30 @@
     left: 0;
     right: auto;
     bottom: 0;
-    background: linear-gradient(to left, transparent 0%, rgba(0, 0,0, 0.747));
+    background: linear-gradient(to left, transparent 0%, rgba(233, 233, 233, 0.747));
+}
+.arrow-left:hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    background: linear-gradient(to left, transparent 0%,rgba(126, 126, 126, 0.747));
+    border-radius: 10px;
+}
+.arrow-rigth:hover {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, transparent 0%, rgba(116, 116, 116, 0.747));
+    border-radius: 10px;
 }
 
 .item{
     width: 250px;
     height: 250px;
-    flex-shrink: 0;
     opacity: 0.6;
     transition: all 600ms ease-in-out;
 }
