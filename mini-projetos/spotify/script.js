@@ -13,13 +13,13 @@ let musicas = [
     },
 
     {título: 'Tipo Akaza',
-    artista: '',
+    artista: 'Sidney Scaccio',
     musica:'musicas/Tipo Akaza 😈 (Kimetsu no Yaiba) _ Style Trap _ Prod. Sidney Scaccio _ MHRAP (320 kbps).mp3',
     img:'https://howlongtobeat.com/avatars/scaramammon_1640063840.png'
     },
 
-    {título: 'Easy',
-    artista: '',
+    {título: 'Easy-(Remix)',
+    artista: 'DaniLeigh ft. Chris Brown',
     musica:'musicas/DaniLeigh - Easy (Lyrics) ft. Chris Brown (320 kbps).mp3',
     img:'https://cdns-images.dzcdn.net/images/cover/5826d71809c06f009eb7e0e826779972/500x500.jpg'
     },
