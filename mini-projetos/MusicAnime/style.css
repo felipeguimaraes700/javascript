@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: rgb(136, 136, 136);
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteiner {
+    background-color: rgb(136, 136, 136);
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itens{
+    background-color: aliceblue;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
