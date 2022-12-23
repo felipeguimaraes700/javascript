@@ -41,16 +41,16 @@ for (let i=0; i < 8; i++){
     itens[i].setAttribute('data-item', i);
 }
 
-let music = document.querySelector('audio')
+let audiotag = document.querySelector('audio')
 
-itens.forEach(function botao() {
+itens.forEach(botao => {
     botao.addEventListener('click', () => {
 
-        let som = songs[botao.getAtribute('data-item')]
+        let som = songs[botao.getAtribute('data-item')];
 
-        music.setAttribute('src', som.music)
-        music.addEventListener('loadedata', () => {
-            music.play();
-        })
+        audiotag.setAttribute('src', som.music)
+        audiotag.addEventListener('loadeddata', () => {
+            audiotag.play();
+        });
     });
 });
