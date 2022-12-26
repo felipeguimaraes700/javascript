@@ -4,12 +4,12 @@ function imc(){
 
     const nome = document.getElementById('name').value;
     const altura = document.getElementById('heigth').value;
-    const peso = document.getElementById('weigth').value;
+    const peso = document.getElementById('weigth');
     const resultado = document.getElementById('resultado');
     
-        if (nome !== ' '){
+    if (nome !== ' '){
         alert('o campo foi preenchido!')
-        } else{
+    } else{
         alert('preencha todos os campos!!!')
     }
 }
