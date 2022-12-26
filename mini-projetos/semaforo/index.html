@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>semaforo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="conteiner">
         <div class="semaforo">
-            <img src="img/semaforoDesligado.png" alt="">
+            <img src="img/semaforoDesligado.png" id="img">
         </div>
-        <div class="botoes">
-            <button>vermelho</button>
-            <button>amarelo</button>
-            <button>verde</button>
-            <button>desligado</button>
+        <div id="buttons">
+            <button id="red" class="button">vermelho</button>
+            <button id="yellow" class="button">amarelo</button>
+            <button id="green" class="button">verde</button>
+            <button id="automatic" class="button">automatico</button>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>

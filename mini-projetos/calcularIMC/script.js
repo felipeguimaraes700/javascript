@@ -1,11 +1,12 @@
-let botao = document.getElementsByClassName('.botao');
+let calcular = document.getElementById('calcular');
 
 function imc(){
 
-    const nome = document.getElementById('#name').value;
-    const altura = document.getElementById('#heigth').value;
-    const peso = document.getElementById('#weigth').value;
-    const resultado = document.getElementById('#resultado');
+    const nome = document.getElementById('name').value;
+    const altura = document.getElementById('heigth').value;
+    const peso = document.getElementById('weigth').value;
+    const resultado = document.getElementById('resultado');
+    
         if (nome !== ' '){
         alert('o campo foi preenchido!')
         } else{
@@ -13,4 +14,4 @@ function imc(){
     }
 }
 
-botao.addEventListener('click', imc)
+calcular.addEventListener('click', imc)
