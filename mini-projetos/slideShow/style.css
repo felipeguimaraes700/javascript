@@ -8,8 +8,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-
+.title{
+    height: 200px;
+    padding: 10px;
+}
 .conteiner-slide{
     display: flex;
     justify-content: space-between;
@@ -30,7 +34,7 @@ body{
 .item{
     width: 50vw;
     height: 50vh;
-    transition: 0.5s;
+    transition: 1s;
 }
 .item:first-child{
     margin-left: -100%;
@@ -38,7 +42,6 @@ body{
 .item img{
     width: 50vw;
     height: 50vh;
-    border-radius: 20px;
 }
 
 .action-button{
