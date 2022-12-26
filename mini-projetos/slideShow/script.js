@@ -1,23 +1,41 @@
 const images = [
-    {'id': '1', 'url':'./img/asta1'},
-    {'id': '2', 'url':'./img/yami'},
-    {'id': '3', 'url':'./img/asta3'},
-    {'id': '4', 'url':'./img/asta4'},
-    {'id': '5', 'url':'./img/yuno'},
-    {'id': '6', 'url':'./img/reimago'},
-    {'id': '7', 'url':'./img/nero'},
-    {'id': '8', 'url':'./img/asta2'},
+    {'id': '1', 'url':'./img/asta1.jpeg'},
+    {'id': '2', 'url':'./img/yami.jpeg'},
+    {'id': '3', 'url':'./img/asta3.jpeg'},
+    {'id': '4', 'url':'./img/asta4.jpeg'},
+    {'id': '5', 'url':'./img/yuno.jpeg'},
+    {'id': '6', 'url':'./img/reimago.png'},
+    {'id': '7', 'url':'./img/asta2.jpeg'},
 ]
 
-const container = document.querySelector('.conteiner-itens')
+const containerItems = document.querySelector('#consteiner-items')
 
-const loadImagens = (images, conteiner) => {
+const loadImagens = (images, containerItems) => {
     images.forEach(image => {
-        container.innerHTML += `
+        containerItems.innerHTML += `
         <div class='item'>
             <img src='${image.url}'
         </div>`
     })
 }
 
-loadImagens(images, container)
+
+loadImagens(images, containerItems)
+
+
+let items = document.querySelectorAll('.item')
+
+//previus
+const previus = () => {
+    containerItems.appendChild(items[0]);
+    items = document.querySelectorAll('.item')
+}
+
+const next = () => {
+    const lastItem = items[items.length -1];
+    containerItems.insertBefore( lastItem, items[0])
+    items = document.querySelectorAll('.item')
+}
+
+document.querySelector('#previus').addEventListener('click', next)
+document.querySelector('#next').addEventListener('click', previus)
