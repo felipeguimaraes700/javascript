@@ -10,9 +10,15 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+.conteiner-title{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.678);
+}
 .title{
     height: 200px;
-    padding: 10px;
+    padding: 20px;
 }
 .conteiner-slide{
     display: flex;
