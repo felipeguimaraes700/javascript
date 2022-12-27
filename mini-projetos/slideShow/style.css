@@ -9,12 +9,13 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: rgb(20, 22, 31);
 }
 .conteiner-title{
     display: flex;
     width: 100vw;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgb(116, 116, 116);
 }
 .title{
     height: 200px;
