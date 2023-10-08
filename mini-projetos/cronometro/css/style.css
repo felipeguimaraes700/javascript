@@ -67,10 +67,12 @@ body{
 }
 #continuar{
     display: none;
+    background-color: rgb(124, 176, 255);
+    color: black;
 }
 #resetar{
     color: black;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.568);
 }
 
 #iniciar:hover{
